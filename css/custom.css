@@ -1,0 +1,12 @@
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-header {
+	background-color: white;
+}
+
+.navbar-collapse {
+	background-color: white;
+}
