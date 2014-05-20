@@ -6,14 +6,13 @@
 
 .navbar {
 	background-color: white;
-	color: blue !important;
 }
 .navbar-collapse {
 	background-color: blue;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
-	color: blue;
+	color:blue !important;
 }
 
 /* Small devices (tablets, 768px and up) */
