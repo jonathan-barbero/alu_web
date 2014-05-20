@@ -3,16 +3,17 @@
 -------------------------------------------------- */
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
-.navbar-header {
-	background-color: white;
-}
 
 .navbar {
 	background-color: white;
 	color: blue;
 }
 .navbar-collapse {
-	background-color: white;
+	background-color: blue;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+	color: blue;
 }
 
 /* Small devices (tablets, 768px and up) */
