@@ -7,10 +7,29 @@
 	background-color: white;
 }
 
-.container {
+.navbar {
 	background-color: white;
 	color: blue;
 }
 .navbar-collapse {
 	background-color: white;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+	#carouselImage1 {
+		src: "./img/primario_friso_01.jpg";
+	}
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+	#carouselImage1 {
+		src: "./img/primario_friso_02.jpg";
+	}
+}
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+	#carouselImage1 {
+		src: "./img/primario_friso_03.jpg";
+	}
 }
