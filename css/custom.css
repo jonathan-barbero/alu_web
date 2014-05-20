@@ -7,6 +7,10 @@
 	background-color: white;
 }
 
+.container {
+	background-color: white;
+	color: blue;
+}
 .navbar-collapse {
 	background-color: white;
 }
