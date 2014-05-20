@@ -7,29 +7,11 @@
 .navbar {
 	background-color: white;
 }
-.navbar-collapse {
+
+.navbar-inverse .navbar-toggle {
 	background-color: blue;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
-	color:blue !important;
-}
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) {
-	#carouselImage1 {
-		background: url('./img/primario_friso_01.jpg');
-	}
-}
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) {
-	#carouselImage1 {
-		background: url('./img/primario_friso_02.jpg');
-	}
-}
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) {
-	#carouselImage1 {
-		background: url('./img/primario_friso_03.jpg');
-	}
+	color:blue;
 }
