@@ -6,7 +6,7 @@
 
 .navbar {
 	background-color: white;
-	color: blue;
+	color: blue !important;
 }
 .navbar-collapse {
 	background-color: blue;
